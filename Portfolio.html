@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8" />
+  <meta name="viewport" content="width=device‑width, initial-scale=1" />
+  <meta name="description" content="Portfolio of JEREMIAH KIPSANG" />
+  <title>JEREMIAH KIPSANG — Portfolio</title>
+   
+   <IMG id="myImage" src="C:\Users\Jery\Downloads\my picture.jpg" width="180" height="150">
+<style type="text/css">
+    #myImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto }
+</style>
+   
+  <style>
+    :root {
+      --primary: #0c0073;
+      --accent: #965e0a;
+      --light-bg: #b1e9a6;
+      --dark-bg: #001219;
+      --text-light: #ffffff;
+      --text-dark: #222222;
+
+      --gap: 1.5rem;
+      --radius: 4px;
+      --fw-base: 1.6rem;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-size: var(--fw-base);
+      line-height: 1.6;
+      font-family: sans-serif;
+      color: var(--text-dark);
+      background: var(--light-bg);
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h1, h2, h3 { margin-top: var(--gap); margin-bottom: calc(var(--gap)/2); }
+    ul { list-style: none; padding: 0; }
+
+    .navbar {
+      background: var(--primary);
+      padding: 0.75rem var(--gap);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .nav-list {
+      display: flex;
+      justify-content: center;
+      gap: var(--gap);
+      margin: 0;
+    }
+    .nav-list li a {
+      color: var(--text-light);
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem var(--gap);
+      background: var(--accent);
+      color: var(--text-light);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.5rem;
+    }
+
+    main > section {
+      max-width: 800px;
+      margin: 4rem auto;
+      padding: 0 var(--gap);
+    }
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .skill-tags li {
+      background: var(--primary);
+      color: var(--text-light);
+      padding: 0.5rem 1rem;
+      border-radius: var(--radius);
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 2rem;
+    }
+    .project-card {
+      padding: 1.5rem;
+      background: var(--text-light);
+      border-radius: var(--radius);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .project-card h3 {
+      margin-top: 0;
+    }
+    .project-card p {
+      margin: 0.5rem 0;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: var(--gap);
+      max-width: 400px;
+      margin-bottom: 1rem;
+    }
+    .contact-form label {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      color: var(--primary);
+    }
+    .contact-form input,
+    .contact-form textarea {
+      padding: calc(var(--gap)/2);
+      border: 1px solid var(--primary);
+      border-radius: var(--radius);
+      font-family: inherit;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background: var(--primary);
+      color: var(--text-light);
+      border: none;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      border-radius: var(--radius);
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background: var(--accent);
+    }
+
+    .contact-email {
+      font-size: 1rem;
+    }
+    .contact-email a {
+      font-weight: bold;
+    }
+    .privacy-note {
+      font-size: 0.85rem;
+      color: #444;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem var(--gap);
+      background: var(--primary);
+      color: var(--text-light);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2.5rem; }
+      .hero p { font-size: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+                 
+
+  <header class="hero">
+    <h1>Hello, I’m Jeremiah Kipsang A.K.A Jay</h1>
+    <p>Full‑stack enthusiast merging code with creativity</p>
+  </header>
+
+  <main>
+    <section id="skills">
+      <h2>Programming Languages & Skills</h2>
+      <ul class="skill-tags">
+
+        <li>HTML5 & CSS</li>
+        <li>Python</li>
+        <li>Git</li>
+        <li>MSQL</li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m Jeremiah Kipsang, a passionate developer excited about building efficient and user-focused applications.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education & CV</h2>
+      <p>Software Development — Power Learn Project.</p>
+      <p>Business Analytics with Excel — Simplilearn.</p>
+      <p>Data Analytics — Zindua School</p>
+      <p>Dip. in Petroleum Geoscince — Rift Valley National Polytechnic.</p>
+      <a href="file:///C:/Users/Jery/Downloads/JEREMIAH%20KIPSANG%20_June17-084609pm.pdf" download>Download CV (PDF)</a>
+    </section>
+
+    <section id="interests">
+      <h2>What Excites Me</h2>
+      <ul>
+        <li>Learning new frameworks</li>
+        <li>Learning AI and machine learning</li>
+        <li>Open-source contributions</li>
+        <li>Building scalable full-stack apps</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3><a href="https://github.com/jeremihhrono/HTML_Assignment_PLP.git">Project One</a></h3>
+          <p>An HTML web that deals with Search Engine Optimization(S.E.O).</p>
+          <p><strong>Tech:</strong>HTML5</p>
+        </div>
+        <div class="project-card">
+          <h3><a href="https://github.com/jeremihhrono/Python_assignment_week1_PLP.git ">Project Two</a></h3>
+          <p>Python script for a basic calculator.</p>
+          <p><strong>Tech:</strong> Python</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://linktr.ee/jeremihhrono" method="POST" class="contact-form">
+        <label>
+          Name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="_replyto" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+        <div class="hidden">
+          <label>Leave blank: <input name="_gotcha" /></label>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p>
+       <h6><img src="C:\Users\Jery\Downloads\email.png" width="15" height="15" >Email <a href="mailto:https://jeremihhrono@gmail.com">jeremihhrono@gmail.com</a></h6>
+        <h6><img src="C:\Users\Jery\Downloads\github.png" width="15" height="15"><a href="https://github.com/jeremihhrono/">GitHub</a></h6>
+      </p>
+      <p class="privacy-note">
+        I store submitted info only to respond and do not share it.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 JEREMIAH KIPSANG. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        document
+          .querySelector(this.getAttribute("href"))
+          .scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  </script>
